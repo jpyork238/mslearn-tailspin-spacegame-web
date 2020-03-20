@@ -11,6 +11,7 @@ variables:
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '3.1.100'
 
+steps:
 - task: Npm@1
   displayName: 'Run npm install'
   inputs:
